@@ -1,0 +1,130 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    background-image: url('/images/background.png');
+    background-color: #000002;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: small;
+    margin: 0;
+}
+
+button {
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 400px;
+
+    font-size: 15px;
+    color: #FFFFFA;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 9px 10px;
+    border-radius: 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 5%;
+}
+
+.environment {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 20px;
+    text-align: center;
+
+    width: 25vw;
+    height: 450px;
+    float: left;
+    margin-left: 10%;
+    padding: 20px;
+}
+
+.supplies {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 20px;
+    text-align: center;
+
+    width: 40vw;
+    height: 450px;
+    float: right;
+    margin-right: 10%;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.water {
+    width: 50%;
+    float: left;
+}
+
+.food {
+    width: 50%;
+    float: left;
+}
+
+.metrics {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 20px;
+    text-align: center;
+
+    width: 50%;
+    height: 400px;
+    float: left;
+    margin-top: 5%;
+    margin-left: 25vw;
+    padding: 20px;
+}
+
+.gravity {
+    padding-top: 40px;
+    width: 50%;
+    float: left;
+}
+
+.kilometers {
+    padding-top: 20px;
+    width: 50%;
+    float: left;
+}
