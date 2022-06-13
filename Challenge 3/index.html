@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Kristina">
+	<title>Landing ITS</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<script src="scripts/main.js" defer></script>
+
+	<!-- Date/Time -->
+	<script src="scripts/date.js" defer></script>
+
+	<!-- Map API -->
+	<link href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css" rel="stylesheet" />
+	<script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
+
+</head>
+
+<body style="background-image: url('images/background.png'); background-position: 100%; background-attachment: fixed;">
+
+	<img src="images/logo.png" class="center">
+
+	<div id="center">
+		<h1 id="date">XX.YY.XXXX 00:00:00</h1>
+		<input type="text" name="search" id="location" placeholder="Please insert your landing location.">
+		<input type="button" id="search_button" value="Search">
+
+	</div>
+
+	<div class="spacer"></div>
+
+	<!-- Weather -->
+	<div class="weather">
+		<div id="popup_bg" class="invisible"></div>
+		<div id="popup_box" class="invisible">
+			<span id="close">&times;</span>
+			<p id="popup_text">Text</p>
+		</div>
+
+		<!-- Weather details -->
+		<div id="weather">
+		</div>
+	</div>
+
+	<!-- Map -->
+	<div class="map" id="map"></div>
+	</div>
+
+</body>
+
+</html>
